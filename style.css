@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f7f9;
+  color: #2c3e50;
+}
+
+.top-announcement {
+  background-color: #008080;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.top-announcement span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.site-header {
+  background-color: white;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e1e8ed;
+}
+
+.brand h2 {
+  color: #1a365d;
+  font-size: 24px;
+}
+
+.brand h2 span {
+  color: #008080;
+}
+
+.main-nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #4a5568;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.main-nav a:hover {
+  color: #008080;
+}
+
+.hero-container {
+  background-color: #1a365d;
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero-box {
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero-box h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-box p {
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: white;
+  color: #1a365d;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.hero-btn:hover {
+  background-color: #e2e8f0;
+}
+
+.dept-container {
+  padding: 50px 8%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  color: #1a365d;
+  font-size: 28px;
+}
+
+.section-title p {
+  color: #718096;
+  margin-top: 8px;
+}
+
+.dept-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dept-card {
+  background-color: white;
+  width: 250px;
+  padding: 25px 20px;
+  border-radius: 10px;
+  border-top: 4px solid #008080;
+  box-shadow: 0 3px 8px #ddd;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #e6fffa;
+  color: #008080;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.dept-card h3 {
+  color: #1a365d;
+  margin-bottom: 10px;
+}
+
+.dept-card p {
+  font-size: 14px;
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+.booking-wrapper {
+  padding: 40px 20px 60px;
+}
+
+.booking-card {
+  background-color: white;
+  width: 550px;
+  max-width: 100%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #ddd;
+}
+
+.booking-card h2 {
+  text-align: center;
+  color: #1a365d;
+  margin-bottom: 25px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #4a5568;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #008080;
+}
+
+.submit-btn {
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #006666;
+}
+
+.site-footer {
+  background-color: #1a365d;
+  color: #a0aec0;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}

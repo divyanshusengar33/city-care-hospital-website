@@ -16,6 +16,7 @@
     <div class="brand">
       <h2>City Care <span>Hospital</span></h2>
     </div>
+
     <nav class="main-nav">
       <a href="#hero">Home</a>
       <a href="#departments">Departments</a>
@@ -64,34 +65,45 @@
     </div>
   </section>
 
-  <section id="book">
-  <h2>Book an Appointment</h2>
-  <form>
-    <label for="name">Patient Name:</label>
-    <input type="text" id="name" placeholder="Enter your name" required>
-    <br><br>
-    <label for="phone">Contact Number:</label>
-    <input type="tel" id="phone" placeholder="Enter phone number" required>
-    <br><br>
-    <label for="department">Department:</label>
-    <select id="department" required>
-      <option value="">Select Department</option>
-      <option value="cardiology">Cardiology</option>
-      <option value="neurology">Neurology</option>
-      <option value="orthopedics">Orthopedics</option>
-      <option value="dermatology">Dermatology</option>
-    </select>
-    <br><br>
-    <label for="date">Appointment Date:</label>
-    <input type="date" id="date" required>
-    <br><br>
-    <button type="submit">Book Appointment</button>
-  </form>
-</section>
+  <section id="book" class="booking-wrapper">
+    <div class="booking-card">
+      <h2>Book an Appointment</h2>
 
-<footer>
-  <p>&#169 2026 City Care Hospital</p>
-</footer>
+      <form class="booking-form">
+        <div class="form-group">
+          <label for="name">Patient Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Contact Number:</label>
+          <input type="tel" id="phone" placeholder="Enter phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="department">Department:</label>
+          <select id="department" required>
+            <option value="">Select Department</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="neurology">Neurology</option>
+            <option value="orthopedics">Orthopedics</option>
+            <option value="dermatology">Dermatology</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Appointment Date:</label>
+          <input type="date" id="date" required>
+        </div>
+
+        <button type="submit" class="submit-btn">Book Appointment</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&#169; 2026 City Care Hospital</p>
+  </footer>
 
 </body>
 </html>

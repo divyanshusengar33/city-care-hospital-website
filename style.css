@@ -46,7 +46,6 @@ body {
   text-decoration: none;
   color: #4a5568;
   font-weight: bold;
-  font-size: 15px;
 }
 
 .main-nav a:hover {
@@ -110,9 +109,9 @@ body {
 
 .dept-grid {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
 }
 
 .dept-card {
@@ -141,13 +140,13 @@ body {
 }
 
 .dept-card p {
-  font-size: 14px;
   color: #4a5568;
   line-height: 1.5;
 }
 
 .booking-wrapper {
-  padding: 40px 20px 60px;
+  padding: 50px 20px;
+  text-align: center;
 }
 
 .booking-card {
@@ -161,7 +160,6 @@ body {
 }
 
 .booking-card h2 {
-  text-align: center;
   color: #1a365d;
   margin-bottom: 25px;
 }
@@ -175,11 +173,11 @@ body {
 .form-group {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  text-align: left;
 }
 
 .form-group label {
-  font-size: 13px;
+  margin-bottom: 5px;
   font-weight: bold;
   color: #4a5568;
 }
@@ -189,6 +187,7 @@ body {
   padding: 10px;
   border: 1px solid #cbd5e0;
   border-radius: 5px;
+  width: 100%;
 }
 
 .form-group input:focus,
@@ -205,6 +204,7 @@ body {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
 }
 
 .submit-btn:hover {
@@ -213,7 +213,7 @@ body {
 
 .site-footer {
   background-color: #1a365d;
-  color: #a0aec0;
+  color: white;
   text-align: center;
   padding: 20px;
   font-size: 14px;
